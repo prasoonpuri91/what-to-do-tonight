@@ -8,7 +8,7 @@ export default function SpecialCard({ special }: SpecialCardProps) {
   return (
     <div className="flex-shrink-0 w-[72vw] max-w-[280px] bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
       {/* Image */}
-      <div className="relative h-28">
+      <div className="relative h-28 bg-gray-200">
         <img src={special.imageUrl} alt={special.venueName} className="w-full h-full object-cover" />
         <span className="absolute top-2.5 left-2.5 bg-rose-500 text-white text-[10px] font-semibold px-2 py-0.5 rounded-full uppercase tracking-wide">
           {special.urgencyLabel}

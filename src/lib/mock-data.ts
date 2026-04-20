@@ -120,7 +120,7 @@ export const specials: Special[] = [
     validityWindow: "Tonight until 7pm",
     urgencyLabel: "Tonight only",
     cta: "Reserve",
-    imageUrl: "https://images.unsplash.com/photo-1431360980791-33b41e9dd787?w=800&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?w=800&q=80",
     neighborhood: "Pike Place",
   },
   {
