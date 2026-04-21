@@ -35,7 +35,7 @@ export const heroItems: VenueOrEvent[] = [
     time: "Dinner 5–10pm",
     rationale: "Sunset views over Shilshole Bay — best seafood in the city tonight",
     type: "venue",
-    relatedPlanIds: ["plan-seafood-sunset", "plan-dinner-jazz", "plan-brunch-walk"],
+    relatedPlanIds: ["plan-seafood-sunset", "plan-ballard-evening"],
   },
 ];
 
@@ -237,14 +237,26 @@ export const readyMadePlans: Itinerary[] = [
   {
     id: "plan-dessert-drinks",
     title: "Dessert + Late-night Drinks",
-    summary: "Sweet start, strong finish",
+    summary: "Sweet start, strong finish at one of the best bars in the world",
     duration: "~2 hrs",
-    priceBand: "$30–50/person",
+    priceBand: "$40–60/person",
     stops: [
       { name: "Fuji Bakery", time: "8:30pm", neighborhood: "International District" },
-      { name: "Radiator Whiskey", time: "9:30pm", neighborhood: "Pike Place" },
+      { name: "Canon", time: "9:30pm", neighborhood: "Capitol Hill" },
     ],
     tags: ["Low-key", "Date night"],
+  },
+  {
+    id: "plan-ballard-evening",
+    title: "Ballard Evening",
+    summary: "Local brewery, then a proper seafood dinner on the water",
+    duration: "~3 hrs",
+    priceBand: "$55–80/person",
+    stops: [
+      { name: "Stoup Brewing", time: "6:00pm", neighborhood: "Ballard" },
+      { name: "Ray's Boathouse", time: "7:30pm", neighborhood: "Ballard" },
+    ],
+    tags: ["Neighbourhood", "Scenic"],
   },
   {
     id: "plan-seafood-sunset",
